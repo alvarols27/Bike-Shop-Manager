@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="    &lt;&lt; IS &gt;&gt;">
+    <Position X="6.797" Y="7.808" Height="0.389" Width="0.922" />
+  </Comment>
+  <Class Name="MyBikes.bus.Bike">
+    <Position X="6.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAGAAAAEgAAAAAAAAAAABAEEBAQCAAUgAgAJIAAE=</HashCode>
+      <FileName>bus\Bike.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="frameType" />
+      <Field Name="madeDate" />
+      <Field Name="color" />
+      <Field Name="type" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MyBikes.bus.Road">
+    <Position X="2.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAEAAAAAAAAAEAAAAAAAABAAAAAQAE=</HashCode>
+      <FileName>bus\Road.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyBikes.bus.Mountain">
+    <Position X="5.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAEAAAAAAAABACAAAAAgAAAAAAABAE=</HashCode>
+      <FileName>bus\Mountain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyBikes.bus.Electric">
+    <Position X="8.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAEAAAAAEAAAEQAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>bus\Electric.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyBikes.bus.Hybrid">
+    <Position X="11.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAABAAEAAQAAAAAAEAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>bus\Hybrid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="MyBikes.bus.Date">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAAJAAAAAAAAAAAAAAAAAQAAAAEAQAAAAAAAAA=</HashCode>
+      <FileName>bus\Date.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="MyBikes.bus.IMovable">
+    <Position X="4.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>bus\IMovable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MyBikes.bus.IPrintable">
+    <Position X="8.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bus\IPrintable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="MyBikes.bus.EnumColor">
+    <Position X="4" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAhAAAAAABAAAAAAAAAAAAAAAADAAACA=</HashCode>
+      <FileName>bus\EnumColor.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MyBikes.bus.EnumBikeType">
+    <Position X="2" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAACAAAAIQAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>bus\EnumBikeType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MyBikes.bus.EnumFrameType">
+    <Position X="1.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAEAAAAAAAASA=</HashCode>
+      <FileName>bus\EnumFrameType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
