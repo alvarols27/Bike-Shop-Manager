@@ -1,0 +1,21 @@
+# Build results
+bin/
+obj/
+Debug/
+Release/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+
+# NuGet packages
+packages/
+
+# Application data (optional - uncomment if you want to keep bikes.xml in version control)
+data/*
+!data/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
